@@ -1,10 +1,14 @@
 import logo from './sportsvibe.png';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Head from './comp/Head/Head';
 import Foot from './comp/Foot/Foot';
 import Navi from './comp/Nav/Navi';
-//import Nav from './comp/Nav/Nav';
+import Home from './comp/Home/Home';
+import News from './comp/News/News';
+import Events from './comp/Events/Events';
+import Cont from './comp/Cont/Cont';
 
 function App() {
   return (
@@ -14,10 +18,10 @@ function App() {
       <Navi />
       
       <Routes>
-        <Route path="/" elements={<h1>Homepahge</h1>} />
-        <Route path="/news" elements={<h1>News</h1>} />
-        <Route path="/events" elements={<h1>Events</h1>} />
-        <Route path="/contact" elements={<h1>Contact US</h1>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/contact" element={<Cont />} />
       </Routes>
       </BrowserRouter>
       <header className="App-header">

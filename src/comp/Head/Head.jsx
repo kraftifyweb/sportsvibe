@@ -3,7 +3,7 @@ import './head.css';
 
 function Head() {
   return (
-    <div className='f'>Sports Vibes</div>
+    <div className='f'><h1>Sports Vibes</h1></div>
   )
 }
 

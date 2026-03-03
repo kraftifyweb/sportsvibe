@@ -1,30 +1,39 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
+import React from "react";
 
+import { Link } from "react-router-dom";
+import logo from "../../sportsvibe.png"
+import './nav.css';
 
 function Navi() {
   return (
-    <div>
-        <Navbar>
-            <Container>
-                <Navbar.Brand href="#home"></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className='me-auto' >
-                            <Navbar.Link href="/">Home</Navbar.Link>
-                            <Navbar.Link href="/news">News</Navbar.Link>
-                            <Navbar.Link href="/events">Events</Navbar.Link>
-                            <Navbar.Link href="/contact">Contact Us</Navbar.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar.Toggle>
-            </Container>
-        </Navbar>
+  <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid"><img src={logo} className="App-logo" alt="logo" width="50px"/> 
+            <Link class="navbar-brand" to="/">Sports Vibes</Link>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/news">News</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/events">Events</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/contact">Contact Us</Link>
+                    </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-  )
+  );
 }
 
-export default Navi
+export default Navi;

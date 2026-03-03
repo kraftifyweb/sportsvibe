@@ -1,10 +1,11 @@
 import React from 'react'
+import './hero.css'
 
 function Hero() {
   return (
-    <div>
-        <video controls loop muted>
-            <source src='multisports.mp4'></source>
+    <div className='vid'>
+        <video autoPlay loop muted>
+            <source src='multisports.mp4' type='video/mp4'></source>
         </video>
     </div>
   )

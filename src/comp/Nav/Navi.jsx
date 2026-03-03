@@ -11,7 +11,7 @@ function Navi() {
   <div>
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container><img src={logo} className="App-logo" alt="logo" width="50px"/>
-        <Navbar.Brand href="/">Sports Vibes</Navbar.Brand>
+        <Link className="navbar-brand" to="/">Sports Vibes</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

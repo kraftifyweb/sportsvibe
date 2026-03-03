@@ -2,7 +2,10 @@ import React from 'react'
 
 function Cont() {
   return (
-    <div>Contact me</div>
+    <div>Contact me
+
+        nepal
+    </div>
   )
 }
 

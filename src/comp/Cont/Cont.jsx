@@ -1,8 +1,9 @@
 import React from 'react'
+import './cont.css';
 
 function Cont() {
   return (
-    <div>Contact me
+    <div className='cont'>Contact me
 
         nepal
     </div>

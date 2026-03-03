@@ -1,8 +1,9 @@
 import React from 'react'
+import './eve.css'
 
 function Events() {
   return (
-    <div>Events</div>
+    <div className="eve">Events</div>
   )
 }
 

@@ -9,9 +9,9 @@ import './nav.css';
 function Navi() {
   return (
   <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
-      <Container><img src={logo} className="App-logo" alt="logo" width="50px"/>
-        <Link className="navbar-brand" to="/">Sports Vibes</Link>
+      <Navbar expand="lg" className="bg-warning text-danger">
+      <Container>
+        <Link className="navbar-brand" to="/"><img src={logo} className="App-logo me-2" alt="logo" width="50px"/>Sports Vibes</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

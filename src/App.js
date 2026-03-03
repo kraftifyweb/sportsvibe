@@ -1,4 +1,3 @@
-import logo from './sportsvibe.png';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -16,7 +15,6 @@ function App() {
       <Head />
       <BrowserRouter>
       <Navi />
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
@@ -24,11 +22,6 @@ function App() {
         <Route path="/contact" element={<Cont />} />
       </Routes>
       </BrowserRouter>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" width="50px"/>
-        hi
-        how are you im fine
-      </header>
       <Foot />
     </div>
   );

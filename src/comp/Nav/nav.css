@@ -1,8 +1,7 @@
 ol{
     display: flex;
     justify-content: space-between;
-    padding: 40px 200px ;
-    background-color: burlywood;
+    padding: 40px 200px;
 }
 .nav{
     padding-right: 10px;

@@ -4,6 +4,9 @@ ol{
     padding: 40px 200px ;
     background-color: burlywood;
 }
+.nav{
+    padding-right: 10px;
+}
 li{
     list-style: none;
 }

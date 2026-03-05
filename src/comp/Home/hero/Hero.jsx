@@ -4,7 +4,7 @@ import "./hero.css";
 function Hero() {
   return (
     <div className="banner">
-      <video autoPlay loop muted className="position-relative">
+      <video autoPlay loop muted playsInline className="position-relative">
         <source src="multisports.mp4" type="video/mp4"></source>
       </video>
 

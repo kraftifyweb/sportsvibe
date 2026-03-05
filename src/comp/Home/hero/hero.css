@@ -20,5 +20,5 @@ source{
    
     background: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5));
     width: 100%;
-    z-index: 0;
+    z-index: 1;
 }

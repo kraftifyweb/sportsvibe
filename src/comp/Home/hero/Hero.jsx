@@ -3,6 +3,7 @@ import "./hero.css";
 
 function Hero() {
   return (
+    <div>
     <div className="banner">
       <video autoPlay loop muted playsInline className="position-relative">
         <source src="multisports.mp4" type="video/mp4"></source>
@@ -12,6 +13,7 @@ function Hero() {
         <h1>Sports Vibes</h1>
         <h3>One place for all sports news and content</h3>
       </div>
+    </div>
     </div>
   );
 }

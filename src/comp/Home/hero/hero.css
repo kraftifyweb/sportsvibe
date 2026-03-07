@@ -8,9 +8,6 @@ video{
     height: 100%;
     
 }
-source{
-    z-index: -1;
-}
 .banner{
     
     width: 100%;
@@ -20,5 +17,4 @@ source{
    
     background: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5));
     width: 100%;
-    z-index: 1;
 }

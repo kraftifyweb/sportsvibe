@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Head from './comp/Head/Head';
@@ -11,6 +12,8 @@ import Cont from './comp/Cont/Cont';
 import Cric from './comp/cricket/Cric';
 import Football from './comp/football/Football';
 import Article from './comp/articles/Article';
+import About from './comp/about/About';
+import User from './comp/User/User';
 
 function App() {
   return (
@@ -25,7 +28,9 @@ function App() {
         <Route path='/football' element={<Football />} />
         <Route path='/article' element={<Article />} />
         <Route path="/events" element={<Events />} />
+        <Route path='/about' element={<About />} />
         <Route path="/contact" element={<Cont />} />
+        <Route path='/user' element={<User />} />
       </Routes>
       </BrowserRouter>
       <Foot />

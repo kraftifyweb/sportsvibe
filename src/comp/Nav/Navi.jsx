@@ -19,8 +19,7 @@ function Navi() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link className="nav-link" to="/">
-                Home
+              <Link className="nav-link" to="/"><i className="fa fa-home me-1"></i>Home
               </Link>
               <Link className="nav-link" to="/news">
                 News
@@ -40,8 +39,14 @@ function Navi() {
               <Link className="nav-link" to="/events">
                 Events
               </Link>
+              <Link className="nav-link" to="/about">
+                About Us
+              </Link>
               <Link className="nav-link" to="/contact">
                 Contact Us
+              </Link>
+               <Link className="nav-link" to="/user">
+                Sign Up/Log In
               </Link>
             </Nav>
           </Navbar.Collapse>
